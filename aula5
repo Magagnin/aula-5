@@ -1,0 +1,139 @@
+//Atividades
+
+    /*  1) Escreva um programa em C que leia o ano de nascimento de uma pessoa,
+        calcule e escreva a sua idade e, também, verifique se ela tem idade para
+        votar(16 anos ou mais) e para conseguir a carteira de habilitação (18 anos ou
+                mais).
+
+        int idade, anonasc, anoatual;
+        printf("Informe seu ano de nascimento:");
+        scanf("%d", &anonasc);
+        printf("Informe seu ano atual:");
+        scanf("%d", &anoatual);
+        idade = anoatual - anonasc;
+        printf("Idade: %d anos\n", idade);
+
+        if(idade >= 16)
+        {
+          printf("\nVocê têm idade para votar");
+        } else
+        {
+          printf("\nVocê não têm idade para votar");
+        }
+        if(idade >= 18)
+        {
+          printf("\nVocê tem idade para ter CNH");
+        }else
+        {
+          printf("\nVocê não tem idade para ter CNH");
+        }
+    */
+
+    /*  2)Escreva um programa em C que leia o código de um determinado produto e
+        mostre a sua classificação, conforme tabela abaixo
+        int codigo;
+        printf("Informe codigo numero:");
+        scanf("%d", &codigo);
+        if(codigo == 1)
+        {
+        printf("Alimentos não perecíveis");
+        }
+        else if(codigo ==  2 || codigo == 3 || codigo == 4)
+        {
+        printf("Alimentos perecíveis");
+        }
+        else if(codigo == 5 || codigo == 6)
+        {
+        printf("Vestuário");
+        }
+        else if(codigo == 7)
+        {
+        printf("Higiene pessoal");
+        }
+        else if(codigo >=8 && codigo <=15)
+        {
+        printf("Limpeza");
+        }
+        else
+        {
+            printf("Invalido");
+        }
+    */
+
+
+    /*  3)Escrever um programa para ler um número inteiro e informar se ele é divisível
+        por 3 e por 7.
+        int numero;
+        printf("Informe numero:");
+        scanf("%d",&numero);
+        if(numero % 3 == 0 && numero % 7 == 0)
+        {
+            printf("O numero %d é divisível por 3 e por 7.\n", numero);
+        }
+        else
+        {
+            printf("O numero %d não é divisível por 3 e por 7.\n", numero);
+        }
+    */
+
+    /*4)Escreva um programa em C que, dado a idade de um nadador, classifique-o em
+    uma das seguintes categorias.
+    int idade;
+    printf("Informe idade:");
+    scanf("%d", &idade);
+    if(idade >= 5 && idade <= 7)
+    {
+        printf("Infantil A");
+    }
+    else if(idade >= 8 && idade <= 10)
+    {
+        printf("Infantil B");
+    }
+    else if(idade >= 11 && idade <=13)
+    {
+        printf("Juvenil A");
+    }
+    else if(idade >= 14 && idade <= 17)
+    {
+        printf("Juvenil B");
+    }
+    else if(idade >= 18)
+    {
+        printf("Adulto");
+    }
+    else if(idade <= 4)
+    {
+        printf("Invalido");
+    }
+    */
+
+
+    /*Escreva um programa em C que dado três lados A, B, C verificar se eles podem
+    ser os comprimentos dos lados de um triângulo e, se forem, verificar se compõem
+    um triângulo equilátero, isósceles ou escaleno. Informar se não compuserem
+    nenhum triângulo.
+    O que é um triangulo: figura geométrica de três lados, em que cada um é menor
+    que a soma dos outros dois.
+    - Triângulo equilátero: três lados iguais.
+    - Triângulo isósceles: dois lados iguais.
+    - Triângulo escaleno: todos os lados diferentes.
+    float A, B, C;
+    printf("Informe comprimento A:");
+    scanf("%f", &A);
+    printf("Informe comprimento B:");
+    scanf("%f", &B);
+    printf("Informe comprimento C:");
+    scanf("%f", &C);
+    if(A == B && B == C)
+    {
+        printf("Triângulo equilátero");
+    }
+    else if(A == B || A == C)
+    {
+        printf("Triângulo isósceles");
+    }
+    else
+    {
+        printf("Triângulo escaleno");
+    }
+    */
